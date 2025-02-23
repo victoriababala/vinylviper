@@ -1,0 +1,891 @@
+j974hyyx5zzd5d30x6wh91c3g97apk5q
+
+// [
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 261,
+//         title: "Kingdom of Cards",
+//         track_number: 1
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 236,
+//         title: "Running in Circles",
+//         track_number: 2
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 272,
+//         title: "Careful What You Wish For",
+//         track_number: 3
+//     },
+//     {
+//        album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 214,
+//         title: "The Hell I Overcame",
+//         track_number: 4
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 209,
+//         title: "Dethrone",
+//         track_number: 5
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 230,
+//         title: "Blood",
+//         track_number: 6
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 317,
+//         title: "Mercy",
+//         track_number: 7
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 204,
+//         title: "Said & Done",
+//         track_number: 8
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//          duration: 265,
+//         title: "Burning Out",
+//         track_number: 9
+//     },
+//      {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 321,
+//         title: "If I'm There",
+//         track_number: 10
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 213,
+//         title: "Never Know",
+//         track_number: 11
+//     },
+//     {
+//         album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//          duration: 207,
+//         title: "Limits",
+//         track_number: 12
+//     },
+//     {
+//          album_id: "j974hyyx5zzd5d30x6wh91c3g97apk5q",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 261,
+//         title: "Come Undone",
+//         track_number: 13
+//     }
+// ]
+
+// [
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 240,
+//       title: "Glass Houses",
+//       track_number: 1
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 196,
+//       title: "Exit Wounds",
+//       track_number: 2
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 210,
+//       title: "The Worst in Me",
+//       track_number: 3
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 243,
+//       title: "FERAL",
+//       track_number: 4
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 243,
+//       title: "Enough, Enough Now",
+//       track_number: 5
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 180,
+//       title: "Malice",
+//       track_number: 6
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 127,
+//       title: "Hedonist",
+//       track_number: 7
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 194,
+//       title: "Broken Youth",
+//       track_number: 8
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 247,
+//       title: "Crawl",
+//       track_number: 9
+//     },
+//     {
+//       album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//       artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//       duration: 246,
+//       title: "The Letdown",
+//       track_number: 10
+//     },
+//     {
+//         album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 201,
+//         title: "Reprise (The Sound of the End)",
+//         track_number: 10
+//       },
+//       {
+//         album_id: "j97fnn89e112g8c5knp5780cqx7aqy14",
+//         artist_id: "j577xxj12b46wftfs2a4t8vjp17atmv3",
+//         duration: 239,
+//         title: "The Fountain",
+//         track_number: 10
+//       }
+//   ]
+
+[
+    {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 57,
+      "title": "C:\Projects\CJOST\BEATDEATH",
+      "track_number": 1
+    },
+    {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 274,
+      "title": "V.A.N",
+      "track_number": 2
+    },
+      {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 225,
+      "title": "THE DRAIN",
+      "track_number": 3
+    },
+    {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 127,
+      "title": "TERMS & CONDITIONS",
+      "track_number": 4
+    },
+      {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 178,
+      "title": "EVEN",
+      "track_number": 5
+    },
+      {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 113,
+      "title": "LOADING SCREEN",
+      "track_number": 6
+    },
+      {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 215,
+      "title": "ANYTHING > HUMAN",
+      "track_number": 7
+    },
+      {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 286,
+      "title": "DIGITAL FOOTPRINT",
+      "track_number": 8
+    },
+      {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 200,
+      "title": "NERVOUS SYSTEM",
+      "track_number": 9
+    },
+      {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 246,
+      "title": "C:\Projects\CJOST\FINDPEACE",
+      "track_number": 10
+    },
+      {
+      "album_id": "j97790vvz0evwy7w15snrfsnc57arg6j",
+      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+      "duration": 217,
+      "title": "C:\Projects\CJOST\CLEARMIND",
+      "track_number": 11
+    }
+]
+
+[
+    {
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "cover_url": "./images/albums/wpsatwin.jpg",
+      "release_date": "23.01.2006",
+      "title": "Whatever People Say I Am, That's What I'm Not"
+    },
+    {
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "cover_url": "./images/albums/fwn.jpg",
+      "release_date": "23.04.2007",
+      "title": "Favourite Worst Nightmare"
+    },
+    {
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "cover_url": "./images/albums/humbug.jpg",
+      "release_date": "19.08.2009",
+      "title": "Humbug"
+    },
+    {
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "cover_url": "./images/albums/sias.jpg",
+      "release_date": "06.06.2011",
+      "title": "Suck It and See"
+    },
+    {
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "cover_url": "./images/albums/am.jpg",
+      "release_date": "06.09.2013",
+      "title": "AM"
+    },
+    {
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "cover_url": "./images/albums/tbhc.jpg",
+      "release_date": "11.05.2018",
+      "title": "Tranquility Base Hotel & Casino"
+    },
+    {
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "cover_url": "./images/albums/tc.jpg",
+      "release_date": "01.01.2021",
+      "title": "The Car"
+    }
+  ]
+
+  [
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 179,
+      "title": "The View from the Afternoon",
+      "track_number": 1
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 178,
+      "title": "I Bet You Look Good on the Dancefloor",
+      "track_number": 2
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 218,
+      "title": "Fake Tales of San Francisco",
+      "track_number": 3
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 204,
+      "title": "Dancing Shoes",
+      "track_number": 4
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 234,
+      "title": "You Probably Couldn't See for the Lights but You Were Staring Straight at Me",
+      "track_number": 5
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 182,
+      "title": "Still Take You Home",
+      "track_number": 6
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 202,
+      "title": "Riot Van",
+      "track_number": 7
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 186,
+      "title": "When the Sun Goes Down",
+      "track_number": 8
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 188,
+      "title": "From the Ritz to the Rubble",
+      "track_number": 9
+    },
+    {
+      "album_id": "j971bhpfcwyvt6m0dqvn2t0fnn7atp8biatwin",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 209,
+      "title": "A Certain Romance",
+      "track_number": 10
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 182,
+      "title": "Brianstorm",
+      "track_number": 1
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 181,
+      "title": "Teddy Picker",
+      "track_number": 2
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 218,
+      "title": "D Is for Dangerous",
+      "track_number": 3
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 192,
+      "title": "Balaclava",
+      "track_number": 4
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 198,
+      "title": "Fluorescent Adolescent",
+      "track_number": 5
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 196,
+      "title": "Only Ones Who Know",
+      "track_number": 6
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 212,
+      "title": "Do Me a Favour",
+      "track_number": 7
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 208,
+      "title": "This House Is a Circus",
+      "track_number": 8
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 222,
+      "title": "If You Were There, Beware",
+      "track_number": 9
+    },
+    {
+      "album_id": "j974bsk4wma1ch14dgepfp2k3d7at5yp",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 205,
+      "title": "505",
+      "track_number": 10
+    },
+      {
+      "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 271,
+      "title": "My Propeller",
+      "track_number": 1
+    },
+    {
+      "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 221,
+      "title": "Crying Lightning",
+      "track_number": 2
+    },
+    {
+      "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 203,
+      "title": "Cornerstone",
+      "track_number": 3
+    },
+    {
+      "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+      "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+      "duration": 204,
+      "title": "Dance Little Liar",
+      "track_number": 4
+    },
+        {
+          "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 226,
+          "title": "Potion Approaching",
+          "track_number": 5
+        },
+        {
+          "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 222,
+          "title": "Fire and the Thud",
+          "track_number": 6
+        },
+        {
+          "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 201,
+          "title": "Secret Door",
+          "track_number": 7
+        },
+        {
+          "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 220,
+          "title": "Jeweller's Hands",
+          "track_number": 8
+        },
+        {
+          "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 221,
+          "title": "The Afternoon's Hat",
+          "track_number": 9
+        },
+        {
+          "album_id": "j97c0t1gjfg09c08h372y0thp57avv10",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 189,
+          "title": "Dangerous Animals",
+          "track_number": 10
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 218,
+          "title": "She's Thunderstorms",
+          "track_number": 1
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 178,
+          "title": "Black Treacle",
+          "track_number": 2
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 176,
+          "title": "Brick by Brick",
+          "track_number": 3
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 196,
+          "title": "The Hellcat Spangled Shalalala",
+          "track_number": 4
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 208,
+          "title": "Don't Sit Down 'Cause I've Moved Your Chair",
+          "track_number": 5
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 194,
+          "title": "Library Pictures",
+          "track_number": 6
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 175,
+          "title": "All My Own Stunts",
+          "track_number": 7
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 196,
+          "title": "Piledriver Waltz",
+          "track_number": 8
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 188,
+          "title": "Love Is a Laserquest",
+          "track_number": 9
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 194,
+          "title": "Suck It and See",
+          "track_number": 10
+        },
+        {
+          "album_id": "j97c0e401hm7x76f1ehxpr3fvn7avsba",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 208,
+          "title": "That's Where You're Wrong",
+          "track_number": 11
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 207,
+          "title": "Do I Wanna Know?",
+          "track_number": 1
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+          "title": "R U Mine?",
+          "track_number": 2
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 205,
+          "title": "One for the Road",
+          "track_number": 3
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 198,
+          "title": "Arabella",
+          "track_number": 4
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 198,
+          "title": "I Want It All",
+          "track_number": 5
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 209,
+          "title": "Why'd You Only Call Me When You're High?",
+          "track_number": 6
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 181,
+          "title": "Snap Out of It",
+          "track_number": 7
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+          "title": "Knee Socks",
+          "track_number": 8
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+          "title": "No. 1 Party Anthem",
+          "track_number": 9
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+          "title": "Mad Sounds",
+          "track_number": 10
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+          "title": "Fireside",
+          "track_number": 11
+        },
+        {
+          "album_id": "j97ajzp5sy6x6krzm039pnyzzx7avpp8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+          "title": "Why'd You Only Call Me When You're High? (Acoustic)",
+          "track_number": 12
+        },
+        {
+          "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+          "title": "Star Treatment",
+          "track_number": 1
+        },
+        {
+          "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+          "title": "One Point Perspective",
+          "track_number": 2
+        },
+        {
+          "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+          "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+          "duration": 204,
+            "title": "American Sports",
+            "track_number": 3
+            },
+            {
+              "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+              "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+              "duration": 204,
+              "title": "Tranquility Base Hotel & Casino",
+              "track_number": 4
+            },
+            {
+              "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+              "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+              "duration": 204,
+              "title": "Golden Trunks",
+              "track_number": 5
+            },
+            {
+              "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+              "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+              "duration": 204,
+              "title": "Four Out of Five",
+              "track_number": 6
+            },
+            {
+              "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+              "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+              "duration": 204,
+              "title": "The World's First Ever Monster Truck Front Flip",
+              "track_number": 7
+            },
+            {
+              "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+              "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+              "duration": 204,
+              "title": "Science Fiction",
+              "track_number": 8
+            },
+            {
+              "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+              "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+              "duration": 204,
+              "title": "She Looks Like Fun",
+              "track_number": 9
+            },
+            {
+              "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+              "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+              "duration": 204,
+              "title": "Batphone",
+              "track_number": 10
+            },
+            {
+              "album_id": "j9714pp98wx9n6c8acpq0v41c57av2m8",
+                "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                "duration": 204,
+                "title": "The Ultracheese",
+                "track_number": 11
+                },
+                {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 218,
+                    "title": "There'd Better Be a Mirrorball",
+                    "track_number": 1
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 204,
+                    "title": "I Ain't Quite Where I Think I Am",
+                    "track_number": 2
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 218,
+                    "title": "Sculptures of Anything Goes",
+                    "track_number": 3
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 204,
+                    "title": "Jet Skis on the Moat",
+                    "track_number": 4
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 218,
+                    "title": "Body Paint",
+                    "track_number": 5
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 204,
+                    "title": "The Car",
+                    "track_number": 6
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 218,
+                    "title": "Big Ideas",
+                    "track_number": 7
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 204,
+                    "title": "Hello You",
+                    "track_number": 8
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 218,
+                    "title": "Mr Schwartz",
+                    "track_number": 9
+                  },
+                  {
+                    "album_id": "j97ea95p9n18qkekt6f7aa10d17avt4t",
+                    "artist_id": "j57d7w2a8qe6cs2e3t2adsp22d7at8zx",
+                    "duration": 204,
+                    "title": "Perfect Sense",
+                    "track_number": 10
+                  }
+                ]
+
+                [
+                    {
+                      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+                      "cover_url": "./images/albums/sd.jpg",
+                      "release_date": "21.11.2019",
+                      "title": "Sundowning"
+                    },
+                    {
+                      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+                      "cover_url": "./images/albums/tpwbyt.jpg",
+                      "release_date": "24.09.2021",
+                      "title": "This Place Will Become Your Tomb"
+                    },
+                      {
+                      "artist_id": "j577xxj12b46wftfs2a4t8vjp17atmv3",
+                      "cover_url": "./images/albums/tmbte.jpg",
+                      "release_date": "19.05.2023",
+                      "title": "Take Me Back to Eden"
+                    },
+                    {
+                      "artist_id": "j579hwe54j93nvevzz7jhq437h7atwea",
+                      "cover_url": "./images/albums/tdg.jpg",
+                      "release_date": "22.07.2003",
+                      "title": "Three Days Grace"
+                    },
+                    {
+                      "artist_id": "j579hwe54j93nvevzz7jhq437h7atwea",
+                      "cover_url": "./images/albums/ox.jpg",
+                      "release_date": "13.06.2006",
+                      "title": "One-X"
+                    },
+                    {
+                      "artist_id": "j579hwe54j93nvevzz7jhq437h7atwea",
+                      "cover_url": "./images/albums/lsn.jpg",
+                      "release_date": "22.09.2009",
+                      "title": "Life Starts Now"
+                    },
+                    {
+                      "artist_id": "j579hwe54j93nvevzz7jhq437h7atwea",
+                      "cover_url": "./images/albums/tov.jpg",
+                      "release_date": "02.10.2012",
+                      "title": "Transit of Venus"
+                    },
+                    {
+                      "artist_id": "j579hwe54j93nvevzz7jhq437h7atwea",
+                      "cover_url": "./images/albums/h.jpg",
+                      "release_date": "31.03.2015",
+                      "title": "Human"
+                    },
+                    {
+                      "artist_id": "j579hwe54j93nvevzz7jhq437h7atwea",
+                      "cover_url": "./images/albums/ot.jpg",
+                      "release_date": "09.03.2018",
+                      "title": "Outsider"
+                    },
+                      {
+                      "artist_id": "j579hwe54j93nvevzz7jhq437h7atwea",
+                      "cover_url": "./images/albums/et.jpg",
+                      "release_date": "06.05.2022",
+                      "title": "Explosions"
+                    }
+                  ]
