@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ConvexClientProvider } from "@/providers/ConvexClientProvider";
 import { Footer } from "@/components/footer";
+import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ConvexAuthNextjsServerProvider>
     <html lang="en">
        <head>
         <link rel="icon" href="/main_logo.svg" />
@@ -40,6 +42,6 @@ export default function RootLayout({
         <ConvexClientProvider>{children}</ConvexClientProvider>
         <Footer />
       </body>
-    </html>
+    </html></ConvexAuthNextjsServerProvider>
   );
 }

@@ -8,6 +8,8 @@ import React from "react";
 import { Loading } from "@/components/loading";
 import { cn, formatDuration, headFont } from "@/lib/utils";
 import Link from "next/link";
+import Favorite from "@/components/favorite";
+import FavoritePlaceholder from "@/components/favoritePlaceholder";
 
 interface AlbumIdPageProps {
   params: { albumId: string };
@@ -87,9 +89,12 @@ const AlbumIdPage = (props: AlbumIdPageProps) => {
               <span className="text-white">
                 {song.track_number}. {song.title}
               </span>
-              <span className="text-white">
-                {formatDuration(song.duration)}
-              </span>
+                <div className="flex items-center space-x-4">
+                <span className="text-white">
+                  {formatDuration(song.duration)}
+                </span>
+                <FavoritePlaceholder id={song._id} itemType="song" />
+                </div>
             </motion.div>
           ))}
         </motion.div>
@@ -99,6 +104,5 @@ const AlbumIdPage = (props: AlbumIdPageProps) => {
 };
 
 // Helper function to format duration (e.g., 180 → "3:00")
-
 
 export default AlbumIdPage;

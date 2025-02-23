@@ -3,7 +3,6 @@ import React from "react";
 import { api } from "@/convex/_generated/api";
 import { cn, headFont } from "@/lib/utils";
 import { useQuery } from "convex/react";
-import { Heart } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
@@ -11,10 +10,11 @@ import { Loading } from "@/components/loading";
 import NavigationArrows from "@/components/navigationArrows";
 import { NavBar } from "@/components/navbar";
 import { useRouter } from "next/navigation";
+import Favorite from "@/components/favorite";
+import FavoritePlaceholder from "@/components/favoritePlaceholder";
 
 export default function Albums() {
   const router = useRouter();
-  const [isFavorite, setIsFavorite] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   // Fetch albums from Convex
   const queryResult = useQuery(api.artists.getArtistsWithAlbums);
@@ -44,10 +44,9 @@ export default function Albums() {
   if (!artistsData.length) {
     return <Loading />;
   }
-  //! TO DO: implement favorite functionality
 
   // Current album data
-  const currentAlbum = artistsData[currentIndex];
+  const currentArtist = artistsData[currentIndex];
   return (
     <main>
       <NavBar activePage={1} />
@@ -84,7 +83,7 @@ export default function Albums() {
                 className="relative w-96 h-96 rounded-lg overflow-hidden shadow-2xl mx-6"
               >
                 <img
-                  src={currentAlbum.image_url}
+                  src={currentArtist.image_url}
                   alt="Artist image"
                   className="w-full h-full object-cover"
                 />
@@ -134,24 +133,19 @@ export default function Albums() {
                     {index + 1 + "."} {album.title}
                   </Link>
                 </span>
-                <Heart
-                  className={cn(
-                    "h-4 w-4 ml-4 mt-1",
-                    isFavorite && "fill-neutral-50 text-neutral-50"
-                  )}
-                />
+                <FavoritePlaceholder id={album._id} itemType="album" />
               </li>
             ))}
           </ul>
           <div className="flex justify-between items-center mt-4">
             <span className="text-lg text-white">Genre:</span>
             <span className="font-bold text-lg text-white">
-              {currentAlbum.genre}
+              {currentArtist.genre}
             </span>
           </div>
           <button
             className="text-white border mt-1 mr-1 border-white px-4 py-2 rounded-full hover:bg-white hover:text-black "
-            onClick={() => handleDiscography(currentAlbum._id)}
+            onClick={() => handleDiscography(currentArtist._id)}
           >
             Discography
           </button>

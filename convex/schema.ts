@@ -1,7 +1,9 @@
 import { v } from "convex/values";
 import { defineSchema, defineTable } from "convex/server";
+import { authTables } from "@convex-dev/auth/server";
 
 export default defineSchema({
+  ...authTables,
   artists: defineTable({
     name: v.string(),
     bio: v.string(),
@@ -21,17 +23,12 @@ export default defineSchema({
     duration: v.number(),
     track_number: v.number(),
   }),
-  users: defineTable({
-    username: v.string(),
-    email: v.string(),
-    password_hash: v.string(),
-  }),
   favoriteSongs: defineTable({
     user_id: v.id("users"),
     song_id: v.id("songs"),
-  }),
+  }).index("by_user_song", ["user_id", "song_id"]),
   favoriteAlbums: defineTable({
     user_id: v.id("users"),
     album_id: v.id("albums"),
-  }),
+  }).index("by_user_album", ["user_id", "album_id"]),
 });

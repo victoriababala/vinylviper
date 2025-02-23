@@ -34,3 +34,13 @@ export const getSongsByAlbum= query({
       return comments;
     },
   });
+
+  export const getSongsByArtist = query({
+    args: { artist_id: v.id("artists") },
+    handler: async (ctx, { artist_id }) => {
+      return await ctx.db
+        .query("songs")
+        .filter((q) => q.eq(q.field("artist_id"), artist_id))
+        .collect();
+    },
+  });

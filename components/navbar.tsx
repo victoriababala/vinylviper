@@ -1,4 +1,7 @@
 import { cn } from "@/lib/utils";
+import { Authenticated, Unauthenticated } from "convex/react";
+import { useRouter } from "next/navigation";
+import { SignOut } from "./SignOut";
 
 interface NavBarProps {
   activePage: number;
@@ -10,6 +13,10 @@ enum ActivePage {
   Albums,
 }
 export const NavBar = ({ activePage }: NavBarProps) => {
+    const redirect = useRouter();
+    const handleRedirect = (page: string) => {
+      redirect.push(`/${page}`);
+    };
   return (
     <nav className="absolute top-0 w-full flex justify-between items-center p-6">
       <div className="flex gap-6 text-lg">
@@ -41,14 +48,27 @@ export const NavBar = ({ activePage }: NavBarProps) => {
           Albums
         </a>
       </div>
-      <div className="flex gap-4">
-        <button className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black">
-          Sign in
-        </button>
-        <button className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black">
-          Sign Up
-        </button>
-      </div>
+      <Unauthenticated>
+        <div className="flex gap-4">
+          <button onClick={()=> handleRedirect('signIn') } className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black">
+            Sign in
+          </button>
+          <button className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black">
+            Sign Up
+          </button>
+        </div>
+      </Unauthenticated>
+      <Authenticated>
+        <div className="flex gap-4">
+          <button className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black" onClick={()=> handleRedirect('profile') }>
+            Profile
+          </button>
+          {/* <button className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black">
+            Sign Out
+          </button> */}
+          <SignOut />
+        </div>
+      </Authenticated>
     </nav>
   );
 };

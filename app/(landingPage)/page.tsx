@@ -4,11 +4,14 @@ import { NavBar } from "@/components/navbar";
 import { cn, headFont } from "@/lib/utils";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+
+
 const LandingPage = () => {
   const redirect = useRouter();
   const handleRedirect = (page: string) => {
     redirect.push(`/${page}`);
   };
+  
   return (
     <div className={`bg-gradient-to-l from-stone-900 to-red-800`}>
       <section className="min-h-screen flex flex-col items-center justify-center relative">

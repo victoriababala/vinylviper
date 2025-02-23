@@ -2,16 +2,16 @@
 import { api } from "@/convex/_generated/api";
 import { cn, formatDuration, headFont } from "@/lib/utils";
 import { useQuery } from "convex/react";
-import { Heart } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Loading } from "@/components/loading";
 import NavigationArrows from "@/components/navigationArrows";
 import { NavBar } from "@/components/navbar";
+import Favorite from "@/components/favorite";
+import FavoritePlaceholder from "@/components/favoritePlaceholder";
 
 export default function Albums() {
-  const [isFavorite, setIsFavorite] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   // Fetch albums from Convex
   const queryResult = useQuery(api.albums.getAlbumsWithSongs);
@@ -39,7 +39,6 @@ export default function Albums() {
   if (!albumsData.length) {
     return <Loading />;
   }
-  //! TO DO: implement favorite functionality
 
   // Current album data
   const currentAlbum = albumsData[currentIndex];
@@ -139,23 +138,12 @@ export default function Albums() {
                 </span>
 
                 <span className="ml-4">{formatDuration(track.duration)}</span>
-                <Heart
-                  className={cn(
-                    "h-4 w-4 ml-4 mt-1",
-                    isFavorite && "fill-neutral-50 text-neutral-50"
-                  )}
-                />
+                <FavoritePlaceholder id={track.id} itemType="song" />
               </li>
             ))}
           </ul>
           <div className="flex justify-between items-center mt-4">
-            <Heart
-              onClick={() => setIsFavorite(!isFavorite)}
-              className={cn(
-                "h-8 w-8 text-neutral-50",
-                isFavorite && "fill-neutral-50 "
-              )}
-            />
+          <FavoritePlaceholder id={currentAlbum._id} itemType="album" />
             <span className="font-bold text-lg text-white">
               {currentAlbum.release_date}
             </span>
