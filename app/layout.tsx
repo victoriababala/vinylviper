@@ -35,8 +35,7 @@ export default function RootLayout({
         <link rel="icon" href="/main_logo.svg" />
       </head>
       <body
-        // className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-l from-stone-900 to-red-800`}
-        className="bg-gradient-to-l from-stone-900 to-red-800"
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-l from-stone-900 to-red-800`}
       >
 
         <ConvexClientProvider>{children}</ConvexClientProvider>

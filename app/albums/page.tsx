@@ -8,7 +8,6 @@ import Link from "next/link";
 import { Loading } from "@/components/loading";
 import NavigationArrows from "@/components/navigationArrows";
 import { NavBar } from "@/components/navbar";
-import Favorite from "@/components/favorite";
 import FavoritePlaceholder from "@/components/favoritePlaceholder";
 
 export default function Albums() {
@@ -35,7 +34,6 @@ export default function Albums() {
     );
   };
 
-  // Handle loading state
   if (!albumsData.length) {
     return <Loading />;
   }
@@ -106,7 +104,7 @@ export default function Albums() {
           <NavigationArrows prevAlbum={prevAlbum} nextAlbum={nextAlbum} />
         </div>
         {/* Album Details */}
-        <div className="bg-zinc-950/20 p-6 mt-1 rounded-lg shadow-lg text-left w-fit min-w-96 ml-auto">
+        <div className="bg-zinc-950/20 p-6 mt-1 rounded-lg shadow-lg text-left w-96 ml-auto">
           <h2
             className={cn("text-4xl font-bold text-white", headFont.className)}
           >

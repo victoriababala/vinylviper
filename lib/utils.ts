@@ -23,10 +23,10 @@ export const predefinedAnswers: FAQProps = {
     "To add a song or album to your favorites, simply click on the heart icon ❤️ next to the title. You can access your favorite tracks and albums anytime in your profile. 📁",
   "How do I create an account?":
     "To create an account, click on the 'Sign Up' button on the main page. ✍️ Enter your email, create a password, and you're all set to start exploring! 🚀",
-  "I have a question that is not answered here.":
-    "If you have a question that is not answered here, please contact support@vinylviper.com 😊",
   "How do I sign in to my account?":
     "To sign in to your account, click on the 'Sign In' button on the main page. ✍️ Enter your email and password, and you're all set to start exploring! 🚀",
+  "I have a question that is not answered here.":
+    "If you have a question that is not answered here, please contact support@vinylviper.com 😊",
 };
 
 export const formatDuration = (seconds: number) => {

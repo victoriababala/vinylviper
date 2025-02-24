@@ -10,7 +10,6 @@ import { Loading } from "@/components/loading";
 import NavigationArrows from "@/components/navigationArrows";
 import { NavBar } from "@/components/navbar";
 import { useRouter } from "next/navigation";
-import Favorite from "@/components/favorite";
 import FavoritePlaceholder from "@/components/favoritePlaceholder";
 
 export default function Albums() {

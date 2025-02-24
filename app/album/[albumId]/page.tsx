@@ -8,7 +8,6 @@ import React from "react";
 import { Loading } from "@/components/loading";
 import { cn, formatDuration, headFont } from "@/lib/utils";
 import Link from "next/link";
-import Favorite from "@/components/favorite";
 import FavoritePlaceholder from "@/components/favoritePlaceholder";
 
 interface AlbumIdPageProps {
@@ -33,19 +32,28 @@ const AlbumIdPage = (props: AlbumIdPageProps) => {
       <div className="container mx-auto px-4 py-10">
         {/* Album Details */}
         <motion.div
-          className="flex flex-col md:flex-row items-center md:items-start gap-6"
+          className="flex flex-col md:flex-row items-center md:items-start gap-6 relative"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <div className="w-48 h-48 md:w-60 md:h-60 rounded-lg overflow-hidden shadow-lg">
+          {/* Album Cover */}
+          <div className="relative w-48 h-48 md:w-60 md:h-60 rounded-lg overflow-hidden shadow-lg">
             <img
               src={album.cover_url}
               alt={album.title}
               className="w-full h-full object-cover"
             />
+            {/* Floating Favorite Heart with Wrapper for Styling */}
+            <div className="absolute bottom-2 right-2 pb-2   pt-2 rounded-full bg-black/40 backdrop-blur-md shadow-md transition hover:scale-110">
+              <div className="mr-4">
+                <FavoritePlaceholder id={album._id} itemType="album" />
+              </div>
+            </div>
           </div>
-          <div>
+
+          {/* Album Details */}
+          <div className="flex flex-col">
             <h1
               className={cn(
                 "text-4xl md:text-5xl font-bold text-white",
@@ -55,12 +63,12 @@ const AlbumIdPage = (props: AlbumIdPageProps) => {
               {album.title}
             </h1>
 
-            <p className={cn("text-2xl text-white mt-4 ", headFont.className)}>
+            <p className={cn("text-2xl text-white mt-4", headFont.className)}>
               <Link
                 href={`/artist/${album.artist_id}`}
                 className="hover:text-gray-400 transition-colors duration-300"
               >
-                {album.artist_name}{" "}
+                {album.artist_name}
               </Link>
             </p>
 
@@ -80,29 +88,31 @@ const AlbumIdPage = (props: AlbumIdPageProps) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          {songs.map((song) => (
-            <motion.div
-              key={song._id}
-              className="flex justify-between items-center p-3  rounded-lg hover:bg-zinc-800/25 transition"
-              whileHover={{ scale: 1.02 }}
-            >
-              <span className="text-white">
-                {song.track_number}. {song.title}
-              </span>
-                <div className="flex items-center space-x-4">
+          {songs.length === 0 ? (
+            <p className="text-white">No songs available for this album.</p>
+          ) : (
+            songs.map((song) => (
+              <motion.div
+                key={song._id}
+                className="flex justify-between items-center p-3  rounded-lg hover:bg-zinc-800/25 transition"
+                whileHover={{ scale: 1.02 }}
+              >
                 <span className="text-white">
-                  {formatDuration(song.duration)}
+                  {song.track_number}. {song.title}
                 </span>
-                <FavoritePlaceholder id={song._id} itemType="song" />
+                <div className="flex items-center space-x-4">
+                  <span className="text-white">
+                    {formatDuration(song.duration)}
+                  </span>
+                  <FavoritePlaceholder id={song._id} itemType="song" />
                 </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            ))
+          )}
         </motion.div>
       </div>
     </main>
   );
 };
-
-// Helper function to format duration (e.g., 180 → "3:00")
 
 export default AlbumIdPage;

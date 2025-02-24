@@ -51,11 +51,9 @@ export const NavBar = ({ activePage }: NavBarProps) => {
       <Unauthenticated>
         <div className="flex gap-4">
           <button onClick={()=> handleRedirect('signIn') } className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black">
-            Sign in
+            Sign in / Sign up
           </button>
-          <button className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black">
-            Sign Up
-          </button>
+
         </div>
       </Unauthenticated>
       <Authenticated>
@@ -63,9 +61,6 @@ export const NavBar = ({ activePage }: NavBarProps) => {
           <button className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black" onClick={()=> handleRedirect('profile') }>
             Profile
           </button>
-          {/* <button className="text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black">
-            Sign Out
-          </button> */}
           <SignOut />
         </div>
       </Authenticated>

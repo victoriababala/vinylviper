@@ -7,6 +7,7 @@ import { useQuery } from "convex/react";
 import { motion } from "framer-motion";
 import { Loading } from "@/components/loading";
 import { cn, headFont } from "@/lib/utils";
+import { ItemCard } from "@/components/itemCard";
 
 interface ArtistIdPageProps {
   params: { artistId: string };
@@ -69,27 +70,22 @@ const ArtistIdPage = (props: ArtistIdPageProps) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
         >
-          {albums.map((album) => (
-            <motion.div
-              key={album._id}
-              className="bg-zinc-950/30 p-2 rounded-lg shadow-lg hover:scale-105 transition-transform flex flex-col items-center"
-              whileHover={{ scale: 1.05 }}
-            >
-              {" "}
-              <a href={`../album/${album._id}`}>
-                <div className="w-fit aspect-square overflow-hidden rounded-lg">
-                  <img
-                    src={album.cover_url}
-                    alt={album.title}
-                    className=" h-full object-cover"
-                  />{" "}
-                </div>
-                <h3 className="mt-3 text-lg font-bold ">{album.title}</h3>
-
-                <p className="text-sm text-gray-400">{album.release_date}</p>
-              </a>
-            </motion.div>
-          ))}
+          {albums.length === 0 ? (
+            <p className="text-center col-span-full mt-4 text-lg">
+              No albums found.
+            </p>
+          ) : (
+            albums.map((album) => (
+              <ItemCard
+                key={album._id}
+                item={{
+                  ...album,
+                  artist_name: artist.name,
+                  type: "album",
+                }}
+              />
+            ))
+          )}
         </motion.div>
       </div>
     </main>

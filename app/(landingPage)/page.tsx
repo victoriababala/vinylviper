@@ -55,7 +55,7 @@ const LandingPage = () => {
 
           {/* CTA Button */}
           <button
-            onClick={() => handleRedirect("signUp")}
+            onClick={() => handleRedirect("artists")}
             className=" text-white mt-6 px-6 py-3 border border-white rounded-full text-lg hover:bg-white hover:text-black"
           >
             Get Started

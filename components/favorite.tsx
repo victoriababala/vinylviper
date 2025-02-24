@@ -53,10 +53,10 @@ const Favorite = ({ id, itemType }: FavoriteProps) => {
       className="cursor-pointer transition-opacity hover:opacity-80"
     >
       <Heart
-        className={cn(
-          "h-6 w-6 ml-4 transition",
-          isFavorite ? "fill-red-500 text-red-500" : "text-gray-400 hover:text-white"
-        )}
+      className={cn(
+        "h-6 w-6 ml-4 transition-transform transform",
+        isFavorite ? "fill-white text-white " : "text-gray-400 hover:text-white hover:scale-110"
+      )}
       />
     </button>
   );

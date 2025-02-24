@@ -5,9 +5,8 @@ import {
   DialogContent,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { BotMessageSquare, Music4 } from "lucide-react";
-import { predefinedAnswers } from "@/lib/utils";
-
+import { BotMessageSquare, Disc3 } from "lucide-react";
+import { cn, headFont, predefinedAnswers } from "@/lib/utils";
 import { CircleHelp } from "lucide-react";
 
 const ChatBotDialog = () => {
@@ -36,7 +35,7 @@ const ChatBotDialog = () => {
     if (isOpen) {
       lockScroll();
       setMessages([
-        { sender: "bot", text: "Hello! How can I help you today?✨" },
+        { sender: "bot", text: "Hello! How can I help you today? ✨" },
       ]);
     } else {
       unlockScroll();
@@ -65,17 +64,17 @@ const ChatBotDialog = () => {
   return (
     <Dialog open={isOpen} onOpenChange={setIsDialogOpen}>
       <DialogTrigger asChild>
-        <button className="fixed bottom-4 right-4 p-3 bg-rose-950 text-white rounded-full shadow-lg">
-          <CircleHelp />
+        <button className="fixed bottom-4 right-4 p-4 bg-rose-800 hover:bg-rose-700 text-white rounded-full shadow-lg transition-all">
+          <CircleHelp className="w-6 h-6 animate-pulse" />
         </button>
       </DialogTrigger>
       <DialogTitle className="text-transparent">FAQ Chatbot</DialogTitle>
       <DialogContent
-        className="w-full max-w-[40rem] h-full max-h-[45rem] flex flex-col p-4 bg-white shadow-2xl rounded-xl"
+        className="w-full max-w-[40rem] h-full max-h-[45rem] flex flex-col p-4 bg-zinc-900/20 backdrop-blur-lg shadow-2xl rounded-2xl border border-zinc-800"
         style={{ overflow: "hidden" }}
       >
-        <h5 className="text-xl font-bold text-center">FAQ Chatbot</h5>
-        <div className="flex-1 overflow-y-auto p-4 border rounded mb-6 bg-gray-50">
+        <h5  className={cn("text-3xl font-bold text-center text-white", headFont.className)}>FAQ Chatbot</h5>
+        <div className="flex-1 overflow-y-auto p-4 border border-zinc-800 rounded-lg mb-6 bg-zinc-800/50">
           {messages.map((msg, index) => (
             <div
               key={index}
@@ -84,37 +83,36 @@ const ChatBotDialog = () => {
               }`}
             >
               {msg.sender === "bot" && (
-                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 mr-2">
-                  <BotMessageSquare className="text-gray-600" />
+                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-zinc-700 mr-2">
+                  <BotMessageSquare className="text-white" />
                 </div>
               )}
               <div
-                className={`max-w-[80%] px-4 py-2 rounded-lg ${
+                className={`max-w-[80%] px-4 py-2 rounded-xl ${
                   msg.sender === "user"
-                    ? "bg-rose-950 text-white"
-                    : "bg-gray-300"
+                    ? "bg-rose-800 text-white"
+                    : "bg-zinc-700 text-white"
                 }`}
               >
                 {msg.text}
               </div>
               {msg.sender === "user" && (
-                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-rose-950 ml-2">
-                  <Music4  className="text-white w-4 h-4" />
+                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-rose-800 ml-2">
+                  <Disc3  className="text-white w-6 h-6" />
                 </div>
               )}
             </div>
           ))}
           <div ref={messagesEndRef} />
         </div>
+
         <div className="mb-4">
-          <h3 className="font-semibold mb-2 text-gray-700">
-            Select a question:
-          </h3>
+          <h3  className={cn("font-semibold mb-2 text-zinc-300 text-lg", headFont.className)}>Select a question:</h3>
           <div className="flex overflow-x-auto gap-2">
             {Object.keys(predefinedAnswers).map((question, index) => (
               <button
                 key={index}
-                className="flex-shrink-0 px-4 py-2 border rounded-lg hover:bg-rose-950 hover:text-white bg-white text-gray-800 shadow-sm whitespace-nowrap transition-colors duration-200"
+                className="flex-shrink-0 px-4 py-2 border border-zinc-700 rounded-lg hover:bg-rose-800 hover:text-white bg-zinc-800 text-zinc-300 shadow-sm whitespace-nowrap transition-colors duration-200"
                 onClick={() => handleSendMessage(question)}
               >
                 {question}
