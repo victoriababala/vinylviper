@@ -33,7 +33,7 @@ const SignUpPage = () => {
       setForm({ username: "", email: "", password: "" });
       
     } catch (err) {
-      setError("Error signing up. Try again.");
+      setError("Error signing up. Try again." + err);
     }
   };
 

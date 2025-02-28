@@ -43,7 +43,7 @@ export default function Albums() {
   return (
     <main>
       <NavBar activePage={2} />
-      <div className="flex flex-row items-center justify-center mt-20">
+      <div className="flex flex-col md:flex-row items-center justify-center mt-20">
         {/* Album Display */}
         <div className="flex flex-col items-center justify-center mx-auto">
           <div className="flex items-center justify-center mt-18 relative w-full max-w-5xl">
@@ -52,7 +52,7 @@ export default function Albums() {
               initial={{ opacity: 0.5, scale: 0.9 }}
               animate={{ opacity: 0.5, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="w-48 h-48 overflow-hidden rounded-lg hidden md:block"
+              className="w-24 h-24 md:w-48 md:h-48 overflow-hidden rounded-lg hidden md:block"
             >
               <img
                 src={
@@ -73,7 +73,7 @@ export default function Albums() {
                 animate={{ opacity: 1, scale: 1, x: 0 }}
                 exit={{ opacity: 0, scale: 0.9, x: -100 }}
                 transition={{ duration: 0.5 }}
-                className="relative w-96 h-96 rounded-lg overflow-hidden shadow-2xl mx-6"
+                className="relative w-48 h-48 md:w-96 md:h-96 rounded-lg overflow-hidden shadow-2xl mx-3 md:mx-6"
               >
                 <img
                   src={currentAlbum.cover_url}
@@ -88,7 +88,7 @@ export default function Albums() {
               initial={{ opacity: 0.5, scale: 0.9 }}
               animate={{ opacity: 0.5, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="w-48 h-48 overflow-hidden rounded-lg hidden md:block"
+              className="w-24 h-24 md:w-48 md:h-48 overflow-hidden rounded-lg hidden md:block"
             >
               <img
                 src={
@@ -104,9 +104,9 @@ export default function Albums() {
           <NavigationArrows prevAlbum={prevAlbum} nextAlbum={nextAlbum} />
         </div>
         {/* Album Details */}
-        <div className="bg-zinc-950/20 p-6 mt-1 rounded-lg shadow-lg text-left w-96 ml-auto">
+        <div className="bg-zinc-950/20 p-4 md:p-6 mt-4 md:mt-1 rounded-lg shadow-lg text-left w-full md:w-96 ml-auto">
           <h2
-            className={cn("text-4xl font-bold text-white", headFont.className)}
+            className={cn("text-2xl md:text-4xl font-bold text-white", headFont.className)}
           >
             <Link
               href={`/album/${albumsData[currentIndex]._id}`}
@@ -116,7 +116,7 @@ export default function Albums() {
             </Link>
           </h2>
           <p
-            className={cn("text-2xl font-bold text-white", headFont.className)}
+            className={cn("text-xl md:text-2xl font-bold text-white", headFont.className)}
           >
             <Link
               href={`/artist/${albumsData[currentIndex].artist_id}`}
@@ -129,7 +129,7 @@ export default function Albums() {
             {albumsData[currentIndex].songs.map((track, index) => (
               <li
                 key={index}
-                className="flex justify-between text-md text-white p-1"
+                className="flex justify-between text-sm md:text-md text-white p-1"
               >
                 <span className="flex-grow mr-2 truncate">
                   {track.track_number + "."} {track.title}
@@ -141,8 +141,8 @@ export default function Albums() {
             ))}
           </ul>
           <div className="flex justify-between items-center mt-4">
-          <FavoritePlaceholder id={currentAlbum._id} itemType="album" />
-            <span className="font-bold text-lg text-white">
+            <FavoritePlaceholder id={currentAlbum._id} itemType="album" />
+            <span className="font-bold text-sm md:text-lg text-white">
               {currentAlbum.release_date}
             </span>
           </div>

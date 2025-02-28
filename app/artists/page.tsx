@@ -49,7 +49,7 @@ export default function Albums() {
   return (
     <main>
       <NavBar activePage={1} />
-      <div className="flex flex-row items-center justify-center mt-28">
+      <div className="flex flex-col md:flex-row items-center justify-center mt-20">
         {/* Album Display */}
         <div className="flex flex-col items-center justify-center mx-auto">
           <div className="flex items-center justify-center mt-18 relative w-full max-w-5xl">
@@ -111,20 +111,20 @@ export default function Albums() {
           <NavigationArrows prevAlbum={prevAlbum} nextAlbum={nextAlbum} />
         </div>
         {/* Album Details */}
-        <div className="bg-zinc-950/20 p-6 mt-1 rounded-lg shadow-lg text-left  w-fit min-w-96 ml-auto">
+        <div className="bg-zinc-950/20 p-6 mt-1 md:p-6  md:mt-1  rounded-lg shadow-lg text-left  w-fit min-w-96 ml-auto">
           <h2 className={cn("text-4xl  text-white", headFont.className)}>
             {artistsData[currentIndex].name}
           </h2>
-          <p className="text-lg font-semibold text-white mt-1">
+          <p className="text-lg font-semibold  mt-1 flex justify-between md:text-md text-white p-1">
             {artistsData[currentIndex].bio || "No info available"}
           </p>
           <ul className="mt-4">
             {artistsData[currentIndex].albums.map((album, index) => (
               <li
                 key={index}
-                className="flex justify-between text-md text-white p-1"
+                className="flex justify-between text-md  p-1   text-sm md:text-md text-white "
               >
-                <span className="flex-grow mr-2">
+                <span className="flex-grow mr-2 truncate">
                   <Link
                     href={`/album/${album._id}`}
                     className="hover:text-gray-400 transition-colors duration-300"
